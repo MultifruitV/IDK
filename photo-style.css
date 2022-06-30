@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0 13%;
+}
+
+ul {
+  padding: 0;
+}
+
+/* .body-dark {
+  background-color:  #95659c;
+  padding: 0;
+} */
+
+.card-list {
+  /* margin: 0 13%; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  grid-auto-flow: dense;
+  text-align: center;
+}
+
+.card {
+  list-style-type: none;
+  background-color: white;
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card-img {
+  width: 190px;
+}
+
+.card-text {
+  font-size: 20px;
+  margin: 0;
+}
